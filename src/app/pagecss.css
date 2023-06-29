@@ -4,12 +4,6 @@
 
 body {
 	font-family: "Open Sans", sans-serif;
-
-	/* display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	justify-content: center;
-	align-items: center; */
 	background: #e6e1e1;
 }
 
@@ -55,9 +49,7 @@ h2 {
 	align-items: center;
 }
 
-.cta__text-column > * + * {
-	margin: min(1.5rem, 2.5vw) 0 0 0;
-}
+
 
 .cta a {
 	display: inline-block;

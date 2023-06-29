@@ -33,7 +33,7 @@ export default function Home() {
 	};
 	const onClickOn = (id: number) => {
 		const urlPage = {
-			face: "fb://facewebmodal/f?href={https://www.facebook.com/Dui.duy26}",
+			face: "fb://profile/100005759479224",
 			ins: "instagram://user?username=khanhduy_ddd",
 			zalo: "https://www.zalo.me/0964064694",
 		};
@@ -76,7 +76,7 @@ export default function Home() {
 								<Image src={face} style={{ width: "100%", height: "100%" }} alt="face" />
 							</a>
 							<p>Facebook</p>
-							<a href="fb://facewebmodal/f?href={https://www.facebook.com/Dui.duy26}">
+							<a href="fb://profile/100005759479224">
 								<FaArrowRightToBracket />
 							</a>
 						</div>
