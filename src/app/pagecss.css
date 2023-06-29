@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+
+	/* display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center; */
+	background: #e6e1e1;
+}
+
+
+
+h2 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+@media (min-width: 50em) {
+	h2 {
+		font-size: 1.8rem;
+	}
+}
+
+.cta {
+	--shadowColor: 0 0% 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background: hsl(0, 0%, 100%);
+	width: 100%;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	overflow: hidden;
+	border: 0.5rem solid black;
+	max-width: 35rem;
+	
+}
+
+/* .cta img {
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	flex: 1 1 300px;
+	outline: 0.5rem solid;
+} */
+
+.cta__text-column {
+	padding: min(1rem, 5vw) ;
+	flex: 1 0 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cta__text-column > * + * {
+	margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+
+.cta a {
+	display: inline-block;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	background: hsl(0, 0%, 100%);
+	border-radius: 0.6rem;
+	font-weight: 700;
+	border: 0.35rem solid ;
+}
+.cta p {
+	color: black;
+	margin: 0;
+	width: 50%;
+	text-align: center;
+
+}
